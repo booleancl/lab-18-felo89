@@ -13,7 +13,7 @@
 
 describe('example to-do app', () => {
   beforeEach(() => {
-    cy.visit('http://localhost:8080')
+    cy.visit('http://localhost:4000')
   })
 
   it('should show right title', () => {
